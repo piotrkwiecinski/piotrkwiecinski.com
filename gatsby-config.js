@@ -7,6 +7,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-typescript`,
+    `gatsby-plugin-robots-txt`,
     {
       resolve: `gatsby-plugin-google-tagmanager`,
       options: { id: `GTM-P7K638`, includeInDevelopment: false },
