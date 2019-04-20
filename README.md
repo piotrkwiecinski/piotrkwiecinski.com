@@ -1,8 +1,7 @@
-
 # PiotrKwiecinski.com Website
 
 The codebase for the [PiotrKwiecinski.com](https://piotrkwiecinski.com/)
 
-License
+## License
 
 Licensed under the [MIT License](./LICENSE).
