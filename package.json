@@ -1,0 +1,30 @@
+{
+  "name": "piotrkwiecinski.com",
+  "version": "0.1.0",
+  "description": "Source code for piotrkwiecinski.com website",
+  "main": "n/a",
+  "repository": "git@github.com:piotrkwiecinski/piotrkwiecinski.com.git",
+  "author": "Piotr Kwiecinski <piotr.kwiecinski@codemanufacture.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "gatsby": "^2.3.25",
+    "gatsby-plugin-typescript": "^2.0.12",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
+    "serve": "gatsby serve",
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^11.13.6",
+    "@types/react": "^16.8.14",
+    "@types/react-dom": "^16.8.4",
+    "prettier": "^1.17.0",
+    "typescript": "^3.4.4"
+  }
+}
