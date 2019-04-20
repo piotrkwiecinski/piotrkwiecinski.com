@@ -1,0 +1,53 @@
+executors:
+  node:
+    parameters:
+      image:
+        type: string
+        default: '10'
+    docker:
+      - image: circleci/node:<< parameters.image >>
+aliases:
+  restore_cache: &restore_cache
+    restore_cache:
+      name: Restore node_modules cache
+      keys:
+        - yarn-piotrkwiecinskicom-{{ checksum "yarn.lock" }}
+
+  install_node_modules: &install_node_modules
+    run:
+      name: Install node.js dependencies
+      command: yarn --frozen-lockfile
+
+  persist_cache: &persist_cache
+    save_cache:
+      name: Save node modules cache
+      key: yarn-piotrkwiecinskicom-{{ checksum "yarn.lock" }}
+      paths:
+        - ~/.cache
+
+version: 2.1
+
+jobs:
+  lint:
+    executor: node
+    steps:
+      - checkout
+      - <<: *restore_cache
+      - <<: *install_node_modules
+      - <<: *persist_cache
+      - run: yarn ci-check
+
+  type_check:
+    executor: node
+    steps:
+      - checkout
+      - <<: *restore_cache
+      - <<: *install_node_modules
+      - <<: *persist_cache
+      - run: yarn type-check
+
+workflows:
+  version: 2
+  build-test-deploy:
+    jobs:
+      - type_check
