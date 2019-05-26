@@ -9,6 +9,10 @@ module.exports = {
     `gatsby-plugin-typescript`,
     `gatsby-plugin-robots-txt`,
     {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {},
+    },
+    {
       resolve: `gatsby-plugin-s3`,
       options: {
         bucketName: `piotrkwiecinski.com`,

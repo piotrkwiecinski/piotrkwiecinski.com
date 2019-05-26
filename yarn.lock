@@ -5047,6 +5047,16 @@ gatsby-plugin-s3@^0.2.5:
     ts-jest "^23.10.5"
     yargs "^12.0.5"
 
+gatsby-plugin-sitemap@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sitemap/-/gatsby-plugin-sitemap-2.1.0.tgz#b21e64a3ef82f4203cffa1728cfab71451b3e050"
+  integrity sha512-9YJUx2UyeYKC8GcLZ4ZsnPAmXi6I9dxu0UDDi85HydTWhV5yC+wgbhNGZH+KlzSTlFGfyAV25cSOyoEO8dXjWg==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    minimatch "^3.0.4"
+    pify "^3.0.0"
+    sitemap "^1.12.0"
+
 gatsby-plugin-typescript@^2.0.14:
   version "2.0.14"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-typescript/-/gatsby-plugin-typescript-2.0.14.tgz#405d0991858cef5e923bce03f1b944ee11ba1cd4"
@@ -7898,7 +7908,7 @@ mime@1.6.0:
   resolved "https://registry.yarnpkg.com/mime/-/mime-1.6.0.tgz#32cd9e5c64553bd58d19a568af452acff04981b1"
   integrity sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==
 
-mime@^2.0.3, mime@^2.2.0, mime@^2.4.0, mime@^2.4.2:
+mime@^2.0.3, mime@^2.2.0, mime@^2.3.1, mime@^2.4.0, mime@^2.4.2:
   version "2.4.3"
   resolved "https://registry.yarnpkg.com/mime/-/mime-2.4.3.tgz#229687331e86f68924e6cb59e1cdd937f18275fe"
   integrity sha512-QgrPRJfE+riq5TPZMcHZOtm8c6K/yYrMbKIoRfapfiGLxS8OTeIfRhUGW5LU7MlRa52KOAGCfUNruqLrIBvWZw==
@@ -9626,7 +9636,7 @@ randomfill@^1.0.3:
     randombytes "^2.0.5"
     safe-buffer "^5.1.0"
 
-range-parser@^1.2.1, range-parser@~1.2.1:
+range-parser@^1.0.3, range-parser@^1.2.1, range-parser@~1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/range-parser/-/range-parser-1.2.1.tgz#3cf37023d199e1c24d1a55b84800c2f3e6468031"
   integrity sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg==
@@ -10566,6 +10576,14 @@ sisteransi@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/sisteransi/-/sisteransi-1.0.0.tgz#77d9622ff909080f1c19e5f4a1df0c1b0a27b88c"
   integrity sha512-N+z4pHB4AmUv0SjveWRd6q1Nj5w62m5jodv+GD8lvmbY/83T/rpbJGZOnK5T149OldDj4Db07BSv9xY4K6NTPQ==
+
+sitemap@^1.12.0:
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/sitemap/-/sitemap-1.13.0.tgz#569cbe2180202926a62a266cd3de09c9ceb43f83"
+  integrity sha1-Vpy+IYAgKSamKiZs094Jyc60P4M=
+  dependencies:
+    underscore "^1.7.0"
+    url-join "^1.1.0"
 
 slash@^1.0.0:
   version "1.0.0"
@@ -11575,6 +11593,11 @@ unc-path-regex@^0.1.2:
   resolved "https://registry.yarnpkg.com/unc-path-regex/-/unc-path-regex-0.1.2.tgz#e73dd3d7b0d7c5ed86fbac6b0ae7d8c6a69d50fa"
   integrity sha1-5z3T17DXxe2G+6xrCufYxqadUPo=
 
+underscore@^1.7.0:
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.9.1.tgz#06dce34a0e68a7babc29b365b8e74b8925203961"
+  integrity sha512-5/4etnCkd9c8gwgowi5/om/mYO5ajCaOgdzj/oW+0eQV9WxKBDZw5+ycmKmeaTXjInS/W0BzpGLo2xR2aBwZdg==
+
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/unicode-canonical-property-names-ecmascript/-/unicode-canonical-property-names-ecmascript-1.0.4.tgz#2619800c4c825800efdd8343af7dd9933cbe2818"
@@ -11699,6 +11722,11 @@ urix@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/urix/-/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"
   integrity sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
+
+url-join@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/url-join/-/url-join-1.1.0.tgz#741c6c2f4596c4830d6718460920d0c92202dc78"
+  integrity sha1-dBxsL0WWxIMNZxhGCSDQySIC3Hg=
 
 url-loader@^1.0.1:
   version "1.1.2"
