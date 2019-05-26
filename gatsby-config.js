@@ -8,6 +8,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-typescript`,
     `gatsby-plugin-robots-txt`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {},
