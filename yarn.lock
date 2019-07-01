@@ -5052,10 +5052,10 @@ gatsby-plugin-robots-txt@^1.4.0:
     "@babel/runtime" "^7.3.1"
     generate-robotstxt "^6.0.0"
 
-gatsby-plugin-s3@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-s3/-/gatsby-plugin-s3-0.3.0.tgz#2d8c875860ca285187ccbb8774ee439eced2de20"
-  integrity sha512-CUxBAZ/iObiL9djDsgHAd4TLZB5KCyrKhTmCnJ+flUNc96sNaGEOfxEDvJIwE9EZKKvf2+cD+GZ9iuunDbUhJw==
+gatsby-plugin-s3@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-s3/-/gatsby-plugin-s3-0.3.1.tgz#afcb2329830293cd5a49cb4b8efb7c367e9b856c"
+  integrity sha512-DeogkzeRrNNN3n7/KeaMwOVWa07Q2+AutdBHkXDrLLUikqBTG6QET4SOGqI+xcTJPhbg9ybw+OxezauGAAjqlA==
   dependencies:
     "@types/async" "^2.4.1"
     "@types/jest" "^24.0.0"
