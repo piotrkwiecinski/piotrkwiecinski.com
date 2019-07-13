@@ -7,6 +7,9 @@
   "author": "Piotr Kwiecinski <piotr.kwiecinski@codemanufacture.com>",
   "license": "MIT",
   "private": true,
+  "resolutions": {
+    "lodash": "4.17.14"
+  },
   "dependencies": {
     "gatsby": "^2.13.7",
     "gatsby-plugin-canonical-urls": "^2.1.0",
