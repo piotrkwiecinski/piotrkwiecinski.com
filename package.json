@@ -41,7 +41,7 @@
     "@babel/core": "^7.5.4",
     "@commitlint/cli": "^8.1.0",
     "@commitlint/config-conventional": "^8.1.0",
-    "@types/node": "^11.13.17",
+    "@types/node": "^11.13.18",
     "@types/react": "^16.8.23",
     "@types/react-dom": "^16.8.4",
     "@types/react-helmet": "^5.0.8",
