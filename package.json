@@ -11,7 +11,7 @@
     "lodash": "4.17.14"
   },
   "dependencies": {
-    "gatsby": "^2.13.32",
+    "gatsby": "^2.13.41",
     "gatsby-plugin-canonical-urls": "^2.1.2",
     "gatsby-plugin-google-tagmanager": "^2.1.4",
     "gatsby-plugin-react-helmet": "^3.1.2",
