@@ -5469,14 +5469,14 @@ gatsby-page-utils@^0.0.16:
     micromatch "^3.1.10"
     slash "^3.0.0"
 
-gatsby-plugin-canonical-urls@^2.1.5:
+gatsby-plugin-canonical-urls@^2.1.6:
   version "2.1.6"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-canonical-urls/-/gatsby-plugin-canonical-urls-2.1.6.tgz#fa1bab8c525d2265f456375e8c66189e9e6f573d"
   integrity sha512-OYPeLVXor5YncEzrA4e8fqnSPqSTNvndTHgcg6ZA1VWN9hchm12tD2UaBRXcsDCTL/6gDI7S4u0zJ2dZ4zLeWw==
   dependencies:
     "@babel/runtime" "^7.5.5"
 
-gatsby-plugin-google-tagmanager@^2.1.7:
+gatsby-plugin-google-tagmanager@^2.1.8:
   version "2.1.8"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-google-tagmanager/-/gatsby-plugin-google-tagmanager-2.1.8.tgz#f9bb50204d81951d0dd12edcfc846adcce0da3a8"
   integrity sha512-OJWdsI+cL6sACarKNVZMKUmz/sE0gF1I8KrB8zyQoLHoD42s3cGBZJa21TLt8+GfGKLS1AZXNU3v5FuBV8g/CQ==
@@ -5496,7 +5496,7 @@ gatsby-plugin-page-creator@^2.1.16:
     lodash "^4.17.15"
     micromatch "^3.1.10"
 
-gatsby-plugin-react-helmet@^3.1.5:
+gatsby-plugin-react-helmet@^3.1.6:
   version "3.1.6"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-3.1.6.tgz#de50a71e687472c72341f587ae6339ebf7f3667c"
   integrity sha512-tagYfzPSLb22BKdEKkPFaShPHNEqOgyMpDLj+cRrpxJNTooL45s/UJufiX58vqbG1GxgIbQfkpkpEix6N8f7aA==
@@ -5537,7 +5537,7 @@ gatsby-plugin-s3@^0.3.2:
     stream-to-promise "^2.2.0"
     yargs "^12.0.5"
 
-gatsby-plugin-sitemap@^2.2.9:
+gatsby-plugin-sitemap@^2.2.11:
   version "2.2.11"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-sitemap/-/gatsby-plugin-sitemap-2.2.11.tgz#0e6f372ae2710f3fa11ff9215ef3f11a20556539"
   integrity sha512-Tp3clZDISvSkhVj1vkKXl9BTpvJb9/SLOP3LDsjwXpubVOyFGb2LwuWF41fvTCRYKQXUOZodqWpcH0H0VXPFnw==
@@ -5547,7 +5547,7 @@ gatsby-plugin-sitemap@^2.2.9:
     pify "^3.0.0"
     sitemap "^1.13.0"
 
-gatsby-plugin-typescript@^2.1.5:
+gatsby-plugin-typescript@^2.1.6:
   version "2.1.6"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-typescript/-/gatsby-plugin-typescript-2.1.6.tgz#6079812bc60004f93c565c0083da1c64107a7b19"
   integrity sha512-RPLj1dwJjzcMOdyRzzVN5nlpSbaY81RS8xQxNUGE1BGnqLo4T5z4M/QqSetf8klrhzd0E/Z5ArZ1DecI95Vkkw==
@@ -5588,7 +5588,7 @@ gatsby-telemetry@^1.1.22:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby@^2.13.83:
+gatsby@^2.15.11:
   version "2.15.11"
   resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.15.11.tgz#8d66f47c35886455fa7be3ccd2fb1f751ed80ec0"
   integrity sha512-jBVMhrSqUvnqD0Oy4f2kNdx38C/iFBMa/PRC7XdhK32Et/Um/uvwH3X8Lz8zB3lCjMFShFlgAIg2MhSDxrSzAA==

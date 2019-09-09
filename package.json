@@ -11,13 +11,13 @@
     "lodash": "4.17.14"
   },
   "dependencies": {
-    "gatsby": "^2.13.83",
-    "gatsby-plugin-canonical-urls": "^2.1.5",
-    "gatsby-plugin-google-tagmanager": "^2.1.7",
-    "gatsby-plugin-react-helmet": "^3.1.5",
+    "gatsby": "^2.15.11",
+    "gatsby-plugin-canonical-urls": "^2.1.6",
+    "gatsby-plugin-google-tagmanager": "^2.1.8",
+    "gatsby-plugin-react-helmet": "^3.1.6",
     "gatsby-plugin-robots-txt": "^1.5.0",
-    "gatsby-plugin-sitemap": "^2.2.9",
-    "gatsby-plugin-typescript": "^2.1.5",
+    "gatsby-plugin-sitemap": "^2.2.11",
+    "gatsby-plugin-typescript": "^2.1.6",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-helmet": "^5.2.1"
