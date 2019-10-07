@@ -43,7 +43,7 @@
     "@commitlint/config-conventional": "^8.2.0",
     "@types/node": "^11.13.22",
     "@types/react": "^16.9.2",
-    "@types/react-dom": "^16.9.0",
+    "@types/react-dom": "^16.9.1",
     "@types/react-helmet": "^5.0.10",
     "gatsby-plugin-s3": "^0.3.2",
     "husky": "^3.0.5",
