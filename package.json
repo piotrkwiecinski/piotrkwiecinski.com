@@ -41,7 +41,7 @@
     "@types/node": "^11.13.22",
     "@types/react": "^16.9.5",
     "@types/react-dom": "^16.9.1",
-    "@types/react-helmet": "^5.0.10",
+    "@types/react-helmet": "^5.0.11",
     "gatsby-plugin-s3": "^0.3.2",
     "husky": "^3.0.9",
     "lint-staged": "^9.4.2",
