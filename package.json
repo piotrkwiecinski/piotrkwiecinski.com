@@ -7,9 +7,6 @@
   "author": "Piotr Kwiecinski <piotr.kwiecinski@codemanufacture.com>",
   "license": "MIT",
   "private": true,
-  "resolutions": {
-    "lodash": "4.17.14"
-  },
   "dependencies": {
     "gatsby": "^2.15.36",
     "gatsby-plugin-canonical-urls": "^2.1.11",
@@ -20,7 +17,7 @@
     "gatsby-plugin-typescript": "^2.1.12",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^6.0.0-beta"
   },
   "scripts": {
     "build": "gatsby build",
