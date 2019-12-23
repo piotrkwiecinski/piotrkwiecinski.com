@@ -35,7 +35,7 @@
     "type-check": "tsc --noEmit"
   },
   "devDependencies": {
-    "@babel/core": "^7.7.5",
+    "@babel/core": "^7.7.7",
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
     "@types/node": "^11.15.3",
