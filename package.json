@@ -8,13 +8,13 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "gatsby": "^2.24.4",
+    "gatsby": "^2.24.11",
     "gatsby-plugin-canonical-urls": "^2.3.10",
     "gatsby-plugin-google-tagmanager": "^2.3.11",
     "gatsby-plugin-react-helmet": "^3.3.10",
     "gatsby-plugin-robots-txt": "^1.5.1",
     "gatsby-plugin-sitemap": "^2.4.11",
-    "gatsby-plugin-typescript": "^2.4.15",
+    "gatsby-plugin-typescript": "^2.4.16",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0"
