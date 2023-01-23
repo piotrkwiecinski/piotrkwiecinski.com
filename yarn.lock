@@ -5655,14 +5655,14 @@ gatsby-page-utils@^1.15.0:
     lodash "^4.17.21"
     micromatch "^4.0.4"
 
-gatsby-plugin-canonical-urls@^3.14.0:
+gatsby-plugin-canonical-urls@^3.15.0:
   version "3.15.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-canonical-urls/-/gatsby-plugin-canonical-urls-3.15.0.tgz#dd6d79ab6b9c803308c1e58759924023cd960290"
   integrity sha512-Jpg0f9ZvnkBFczDLLxzoxCHD0pEBAghY6EZRl7dmLklxo+UuB0bgt/h+Pa7sO5Bt5YdI4Sy0dBAz0AwljqG7rQ==
   dependencies:
     "@babel/runtime" "^7.15.4"
 
-gatsby-plugin-google-tagmanager@^3.14.0:
+gatsby-plugin-google-tagmanager@^3.15.0:
   version "3.15.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-google-tagmanager/-/gatsby-plugin-google-tagmanager-3.15.0.tgz#624ffc1e569c788d45742fed28253ee9f8c938b4"
   integrity sha512-BofhsM833JguXUjWplhkvR/L7w8ol41R6JHTIVB5A27EVPWBm3NaBzboLyuMhzKvrubspDgWq6+5tveG0wmAAg==
@@ -5687,7 +5687,7 @@ gatsby-plugin-page-creator@^3.15.0:
     globby "^11.0.4"
     lodash "^4.17.21"
 
-gatsby-plugin-react-helmet@^4.14.0:
+gatsby-plugin-react-helmet@^4.15.0:
   version "4.15.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-4.15.0.tgz#cb11257d7d3332304ac5f942e57a1ee4c2726231"
   integrity sha512-wA3DbF7njlp4TkgWz3M8kBV3OBahE/1TJmF20rFAm5OBt3ak9VCg8x6CjB73qVdJPsyd4ETF7fhxjgrgVmXwpw==
@@ -5728,7 +5728,7 @@ gatsby-plugin-s3@^0.3.8:
     stream-to-promise "^2.2.0"
     yargs "^15.4.0"
 
-gatsby-plugin-sitemap@^4.10.0:
+gatsby-plugin-sitemap@^4.11.0:
   version "4.11.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-sitemap/-/gatsby-plugin-sitemap-4.11.0.tgz#87fdb71bbfc2457ae4e7bd86fa98bdda2444378b"
   integrity sha512-DMzdyJxzUDawSt81SrnieDYLYru57Z0lYADBLbfM/eQacvXA0wGN/HtDIG1laWrToR/Er1WZqGFBEyfnIAu5Gg==
@@ -5738,7 +5738,7 @@ gatsby-plugin-sitemap@^4.10.0:
     minimatch "^3.0.4"
     sitemap "^7.0.0"
 
-gatsby-plugin-typescript@^3.14.0, gatsby-plugin-typescript@^3.15.0:
+gatsby-plugin-typescript@^3.15.0:
   version "3.15.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-typescript/-/gatsby-plugin-typescript-3.15.0.tgz#63bddcf3bd88f589d31355d09f7d3343cb9566e3"
   integrity sha512-xJYN9LqQnKCTCOXChAMSpG9fZXQ8e73SkJTkAaK3eKLGEN3olTSwCMov6rrK19dm/hfNin2RVomm1sahd3hefg==
@@ -5859,7 +5859,7 @@ gatsby-worker@^0.6.0:
     "@babel/core" "^7.15.5"
     "@babel/runtime" "^7.15.4"
 
-gatsby@^3.14.6:
+gatsby@^3.15.0:
   version "3.15.0"
   resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-3.15.0.tgz#d60f9a2616eea10090a814bdb20b57dd72ec5a26"
   integrity sha512-zZrHYZtBksrWkOvIJIsaOdfT6rTd5g+HclsWO25H3kTecaPGm5wiKrTtEDPePHWNqEM1V0rLJ/I97/N5tS+7Lw==
