@@ -3,9 +3,9 @@ executors:
     parameters:
       image:
         type: string
-        default: '14'
+        default: '20.12'
     docker:
-      - image: circleci/node:<< parameters.image >>
+      - image: cimg/node:<< parameters.image >>
 aliases:
   restore_cache: &restore_cache
     restore_cache:
