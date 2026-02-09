@@ -37,7 +37,7 @@
     "@commitlint/cli": "^20.4.1",
     "@commitlint/config-conventional": "^20.4.1",
     "@types/node": "^16.18.126",
-    "@types/react": "^17.0.90",
+    "@types/react": "^17.0.91",
     "@types/react-dom": "^17.0.26",
     "@types/react-helmet": "^6.1.11",
     "gatsby-plugin-s3": "^0.4.1",
