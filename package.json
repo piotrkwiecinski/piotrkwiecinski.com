@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.29.0",
-    "@commitlint/cli": "^20.5.0",
+    "@commitlint/cli": "^20.5.2",
     "@commitlint/config-conventional": "^20.5.0",
     "@types/node": "^16.18.126",
     "@types/react": "^17.0.91",
