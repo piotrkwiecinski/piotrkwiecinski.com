@@ -1,12 +1,12 @@
-# Project dependencies
-.cache
-node_modules
-*.log
-
-# Build directory
+# Hugo
 /public
-/dist
-.DS_Store
+/resources/_gen/
+.hugo_build.lock
 
-# Tests
-/coverage
+# Nix / direnv
+/result
+/result-*
+.direnv
+
+*.log
+.DS_Store

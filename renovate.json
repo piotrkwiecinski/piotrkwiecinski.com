@@ -1,22 +1,16 @@
 {
-  "extends": [
-    "config:base",
-    "group:gatsbyMonorepo",
-    "group:reactMonorepo",
-    "group:graphqlcodegeneratorMonorepo",
-    "group:jestMonorepo",
-    "docker:disable",
-    "schedule:weekly"
-  ],
-  "automerge": true,
-  "major": {
-    "automerge": false
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended", "schedule:weekly"],
+  "nix": {
+    "enabled": true
   },
-  "rangeStrategy": "bump",
-  "rebaseStalePrs": true,
   "lockFileMaintenance": {
-    "enabled": true,
-    "recreateClosed": true
+    "enabled": true
   },
-  "gitAuthor": null
+  "packageRules": [
+    {
+      "matchManagers": ["github-actions"],
+      "groupName": "GitHub Actions"
+    }
+  ]
 }
