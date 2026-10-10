@@ -1,0 +1,22 @@
+baseURL = "https://piotrkwiecinski.com/"
+locale = "en-gb"
+title = "Piotr Kwiecinski"
+
+disableKinds = ["taxonomy", "term", "RSS"]
+
+[params]
+author = "Piotr Kwiecinski"
+description = "Piotr Kwiecinski, software developer."
+
+[[params.links]]
+name = "GitHub"
+url = "https://github.com/piotrkwiecinski/"
+
+[[params.links]]
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/pkwiecin/"
+
+[sitemap]
+changefreq = "monthly"
+filename = "sitemap.xml"
+priority = 0.5

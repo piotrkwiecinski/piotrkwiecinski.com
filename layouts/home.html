@@ -1,0 +1,11 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+<nav aria-label="Profiles">
+  <ul class="links">
+    {{- range site.Params.links }}
+    <li><a href="{{ .url }}" rel="me noopener">{{ .name }}</a></li>
+    {{- end }}
+  </ul>
+</nav>
+{{ end }}
