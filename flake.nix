@@ -24,25 +24,57 @@
           pkgs,
           ...
         }:
+        let
+          mkSite =
+            {
+              name,
+              baseURL ? null,
+            }:
+            pkgs.stdenvNoCC.mkDerivation {
+              inherit name;
+              src = gitignore.lib.gitignoreSource ./.;
+
+              nativeBuildInputs = [ pkgs.hugo ];
+
+              buildPhase = ''
+                runHook preBuild
+                hugo --minify ${pkgs.lib.optionalString (baseURL != null) "--baseURL ${baseURL}"}
+                runHook postBuild
+              '';
+
+              installPhase = ''
+                runHook preInstall
+                mkdir -p $out
+                cp -r public/* $out/
+                runHook postInstall
+              '';
+            };
+        in
         {
-          packages.default = pkgs.stdenvNoCC.mkDerivation {
-            name = "piotrkwiecinski-com-website";
-            src = gitignore.lib.gitignoreSource ./.;
+          packages.default = mkSite { name = "piotrkwiecinski-com-website"; };
 
-            nativeBuildInputs = [ pkgs.hugo ];
+          # Production build served locally at https://piotrkwiecinski.test:
+          # nix build .#preview -o result-preview
+          packages.preview = mkSite {
+            name = "piotrkwiecinski-com-website-preview";
+            baseURL = "https://piotrkwiecinski.test/";
+          };
 
-            buildPhase = ''
-              runHook preBuild
-              hugo --minify
-              runHook postBuild
-            '';
-
-            installPhase = ''
-              runHook preInstall
-              mkdir -p $out
-              cp -r public/* $out/
-              runHook postInstall
-            '';
+          # Live server behind https://dev.piotrkwiecinski.test (fixed port so
+          # it can run next to codemanufacture.com on 1313): nix run .#dev
+          apps.dev = {
+            type = "app";
+            program = pkgs.lib.getExe (
+              pkgs.writeShellApplication {
+                name = "hugo-dev";
+                runtimeInputs = [ pkgs.hugo ];
+                text = ''
+                  exec hugo server --bind 127.0.0.1 --port 1314 \
+                    --baseURL https://dev.piotrkwiecinski.test/ \
+                    --appendPort=false --liveReloadPort 443 "$@"
+                '';
+              }
+            );
           };
 
           treefmt = {
