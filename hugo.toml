@@ -6,7 +6,9 @@ disableKinds = ["taxonomy", "term", "RSS"]
 
 [params]
 author = "Piotr Kwiecinski"
-description = "Piotr Kwiecinski, software developer."
+description = "Piotr Kwiecinski, founder of Codemanufacture, nixpkgs maintainer and open source contributor."
+
+tagline = "Founder · nixpkgs maintainer"
 
 [[params.links]]
 name = "GitHub"

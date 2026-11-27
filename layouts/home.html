@@ -1,6 +1,20 @@
 {{ define "main" }}
+{{- with resources.Get "images/piotr-kwiecinski.jpg" }}
+{{- $img := .Process "fill 256x256 webp q85" }}
+<img
+  class="avatar"
+  src="{{ $img.RelPermalink }}"
+  width="112"
+  height="112"
+  alt="Portrait of {{ site.Params.author }}"
+  fetchpriority="high"
+/>
+{{- end }}
+{{- with site.Params.tagline }}
+<p class="eyebrow">{{ . }}</p>
+{{- end }}
 <h1>{{ .Title }}</h1>
-{{ .Content }}
+<div class="summary">{{ .Content }}</div>
 <nav aria-label="Profiles">
   <ul class="links">
     {{- range site.Params.links }}
