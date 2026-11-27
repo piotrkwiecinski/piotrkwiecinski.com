@@ -91,13 +91,25 @@ footer {
 
 /* Portrait: a thin accent ring separated from the photo by a gap of page
    background, echoing the blue backdrop. */
+/* Portrait beside the name and tagline. */
+.intro {
+  display: flex;
+  align-items: center;
+  gap: clamp(1.25rem, 4vw, 2rem);
+  margin: 0 0 2rem;
+}
+
+.intro h1 {
+  margin: 0;
+}
+
 .avatar {
+  flex: none;
   display: block;
-  width: 7rem;
-  height: 7rem;
+  width: clamp(5rem, 18vw, 7rem);
+  height: clamp(5rem, 18vw, 7rem);
   border-radius: 50%;
   object-fit: cover;
-  margin: 0 0 2rem;
   box-shadow:
     0 0 0 4px var(--bg),
     0 0 0 5px var(--photo-blue),
@@ -222,16 +234,8 @@ footer p {
     animation-delay: 0.16s;
   }
 
-  main > :nth-child(4) {
-    animation-delay: 0.24s;
-  }
-
-  main > :nth-child(5) {
-    animation-delay: 0.32s;
-  }
-
   footer {
-    animation-delay: 0.45s;
+    animation-delay: 0.3s;
   }
 
   @keyframes rise {
